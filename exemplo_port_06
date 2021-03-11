@@ -1,0 +1,19 @@
+//Função do algoritmo: exemplo de utilização de matriz
+//Autor: Rafael Sander
+
+programa
+{
+	funcao inicio()
+	{
+	  inteiro cont = 0
+	  //Primeiro conj de colchetes é linha 0, segundo conj é linha 1, terceiro conj linha 2 e terceiro conj linha 3
+		cadeia cesta[][] = {{"Pera", "100"}, {"Jaca", "200"}, {"Maçã", "900"}, {"Uva", "89"}}
+		
+		faca
+		{
+		    escreva("Produto: " + cesta[cont][0] + "\nQuantidade: " + cesta[cont][1] + "\n\n")
+		    cont++
+		}
+		enquanto (cont<=3)
+	}
+}
