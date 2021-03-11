@@ -1,0 +1,16 @@
+//Função do algoritmo: exemplo de utilização de vetor
+//Autor: Rafael Sander
+
+programa
+{
+	funcao inicio()
+	{
+		cadeia frutas[4]
+		frutas[0] = "Maçã"
+		frutas[1] = "Pera"
+		frutas[2] = "Uva"
+		frutas[3] = "Jaca"
+		
+		escreva(frutas[3])
+	}
+}
