@@ -1,0 +1,18 @@
+//Função do algoritmo: exercício de matriz
+//Autor: Rafael Sander
+
+programa
+{
+	funcao inicio()
+	{
+	    inteiro cont = 0
+	    cadeia info[][] = {{"João", "São Paulo", "(11)99721-2312"}, {"Maria", "Ribeirão Preto", "(16)98453-1231"}, {"Ana", "Manaus", "(92)99651-8754"}}
+		
+		faca
+		{
+		    escreva("Nome: " + info[cont][0] + "\nCidade: " + info[cont][1] + "\nTelefone: " + info[cont][2] + "\n\n")
+		    cont++
+		}
+		enquanto (cont<=2)
+	}
+}
